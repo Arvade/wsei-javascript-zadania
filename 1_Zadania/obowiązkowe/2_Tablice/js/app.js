@@ -48,4 +48,8 @@ function getEvenAvarage(tab) {
     }
 }
 
+/* Zadanie6 */
+function sortArray(tab) {
+    return tab.sort((a, b) => a - b);
+}
 
