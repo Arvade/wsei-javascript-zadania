@@ -80,3 +80,13 @@ function print2DArray(tab) {
     }
 }
 
+
+/* Zadanie 4 */
+function zadanie4() {
+    const myVeryBest2dArray = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ];
+    print2DArray(myVeryBest2dArray);
+}
