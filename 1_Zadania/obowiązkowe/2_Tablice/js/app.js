@@ -48,8 +48,23 @@ function getEvenAvarage(tab) {
     }
 }
 
-/* Zadanie6 */
+/* Zadanie 6 */
 function sortArray(tab) {
     return tab.sort((a, b) => a - b);
 }
 
+/* Zadanie 7 */
+function addArrays(tab1, tab2) {
+    const result = [];
+    const loopTo = (tab1.length > tab2.length) ? tab1.length : tab2.length;
+
+    for (let i = 0; i < loopTo; i++) {
+        if (tab1[i] && tab2[i]) {
+            result[i] = tab1[i] + tab2[i];
+        } else {
+            result[i] = tab1[i] || tab2[i];
+        }
+    }
+
+    return result;
+}
