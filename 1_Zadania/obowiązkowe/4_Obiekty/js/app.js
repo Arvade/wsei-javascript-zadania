@@ -46,3 +46,18 @@ function zadanie1() {
         console.log(book[key]);
     }
 }
+
+/* Zadanie 2 */
+function zadanie2() {
+    const person = {
+        name: "Sebastian",
+        age: 21,
+        sayHello: function () {
+            console.log("hello");
+        }
+    };
+
+    console.log(person.name);
+    console.log(person.age);
+    person.sayHello();
+}
