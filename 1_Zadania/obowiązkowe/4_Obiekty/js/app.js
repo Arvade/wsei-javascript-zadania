@@ -77,3 +77,18 @@ function zadanie3() {
         console.log(`${key} : ${recipe[key]}`)
     }
 }
+
+/* Zadanie 6 */
+var spoon = {
+    isExist: true
+};
+
+var fork = spoon;
+fork.isExist = false;
+
+/*
+ "spoon.isExists" ma wartość false ponieważ w
+        "var fork = spoon"
+ przypisuje referencje do naszego obiektu, co powoduje, ze
+ wszelkie zmiany dokonane na fork lub spoon zmienią nasz obiekt
+ */
