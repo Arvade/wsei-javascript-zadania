@@ -34,3 +34,15 @@ function zadanie0b() {
     timeMachine.run(new Date(), "Kraków");
 }
 
+/* Zadanie 1 */
+function zadanie1() {
+    const book = {
+        title: "Game of thrones",
+        author: "George R. R. Martin",
+        numberOfPages: 999
+    };
+
+    for (let key in book) {
+        console.log(book[key]);
+    }
+}
