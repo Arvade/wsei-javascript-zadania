@@ -8,4 +8,8 @@ var movie = {
     year: 2001,
     time: "2h 58 min",
     category: " Adventure, Drama, Fantasy"
+};
+
+for (let property in movie) {
+    console.log(`${property} : ${movie[property]}`);
 }
