@@ -30,4 +30,21 @@ var animals = [
         ]
     }
 
-]
+];
+
+for (let i = 0; i < animals.length; i++) {
+    printObj(animals[i],'');
+    console.log(""); // Empty line
+}
+
+function printObj(obj, prefix) {
+    for (const property in obj) {
+        if (obj.hasOwnProperty(property)) {
+            if (typeof obj[property] == "object") {
+                printObj(obj[property], prefix + " ");
+            } else {
+                console.log(`${prefix} ${property} : ${obj[property]}`);
+            }
+        }
+    }
+}
