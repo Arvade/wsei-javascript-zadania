@@ -34,3 +34,18 @@ function multiply(tab) {
     }
     return result;
 }
+
+/* Zadanie 5 */
+function getEvenAvarage(tab) {
+    const averageNumbers = tab.filter(n => n % 2 === 0);
+
+    const sumOfEvenNumbers = averageNumbers.reduce((a, b) => a + b, 0);
+
+    if (averageNumbers.length === 0) {
+        return null;
+    } else {
+        return sumOfEvenNumbers / averageNumbers.length;
+    }
+}
+
+
