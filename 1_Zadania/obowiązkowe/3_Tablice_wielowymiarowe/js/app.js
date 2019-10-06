@@ -1,3 +1,22 @@
+/* Zadanie 0 */
+function checkArray(tab) {
+    const result = [];
+
+    for (let nthRow = 0; nthRow < tab.length; nthRow++) {
+        const row = tab[nthRow];
+
+        let hasAllEvenNumbers = true;
+        for (let i = 0; i < row.length; i++) {
+            if (row[i] % 2 !== 0) {
+                hasAllEvenNumbers = false;
+                break;
+            }
+        }
+        result.push(hasAllEvenNumbers);
+    }
+
+    return result;
+}
 
 var task1Array = [
     [2, 3],
