@@ -90,3 +90,19 @@ function zadanie4() {
     ];
     print2DArray(myVeryBest2dArray);
 }
+
+/* Zadanie 5 */
+function create2DArray(rows, columns) {
+    let result = [];
+
+    let n = 1;
+    for (let nthRow = 0; nthRow < rows; nthRow++) {
+        result[nthRow] = [];
+        for (let nthCol = 0; nthCol < columns; nthCol++) {
+            result[nthRow][nthCol] = n++;
+        }
+    }
+
+    return result;
+}
+
