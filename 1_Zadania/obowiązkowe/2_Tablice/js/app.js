@@ -26,3 +26,11 @@ function printTable(array) {
     }
 }
 
+/* Zadanie 4 */
+function multiply(tab) {
+    let result = tab[0];
+    for (let i = 1; i < tab.length; i++) {
+        result *= tab[i];
+    }
+    return result;
+}
