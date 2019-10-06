@@ -39,3 +39,24 @@ function zadanie1() {
     console.log(task1Array[1].length);
     console.log(task1Array[4][2]);
 }
+
+/* Zadanie 2 */
+function zadanie2() {
+    /* 2.1 */
+    for (let i = 0; i < task2Array.length; i++) {
+        console.log(task2Array[i]);
+    }
+
+    /* 2.2 */
+    for (let i = 0; i < task2Array.length; i++) {
+        console.log(task2Array[i].length);
+    }
+
+    /* 2.3 */
+    for (let nthRow = 0; nthRow < task2Array.length; nthRow++) {
+        const row = task2Array[nthRow];
+        for (let i = 0; i < row.length; i++) {
+            console.log(row[i]);
+        }
+    }
+}
