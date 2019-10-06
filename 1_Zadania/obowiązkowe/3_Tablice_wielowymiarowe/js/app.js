@@ -60,3 +60,23 @@ function zadanie2() {
         }
     }
 }
+
+
+/* Zadanie 3 */
+function print2DArray(tab) {
+    for (let nthRow = 0; nthRow < tab.length; nthRow++) {
+        const row = tab[nthRow];
+        for (let i = 0; i < row.length; i++) {
+            /*
+                "Następnie funkcja ma wypisać w konsoli zawartość tej tablicy."
+                Z powodu braku dokładnie sprecyzowanego sposobu wypisania zrobiłem w ten sposób jak poniżej. Poza tym
+                można również następująco:
+                  - console.log(row)
+                  - console.table(tab)
+
+             */
+            console.log(row[i]);
+        }
+    }
+}
+
