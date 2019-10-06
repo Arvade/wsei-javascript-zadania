@@ -18,3 +18,15 @@ function zadanie0() {
     car.printCarInfo();
 }
 
+/* Zadanie 1 */
+function zadanie1() {
+    car["reviews"] = [];
+    car.addReview = function (review) {
+        this.reviews.push(review);
+    };
+
+    car.getReviews = function () {
+        return this.reviews;
+    }
+}
+
