@@ -61,3 +61,19 @@ function zadanie2() {
     console.log(person.age);
     person.sayHello();
 }
+
+/* Zadanie 3 */
+function zadanie3() {
+    const recipe = {
+        title: "Pizza",
+        servings: 8,
+    };
+
+    recipe.ingredients = ["szynka", "cebula", "ser", "sos pomidorowy", "pomidor"];
+    // albo recipe["ingredients"] = ["szynka", "cebula", "ser", "sos pomidorowy", "pomidor"];
+
+
+    for (let key in recipe) {
+        console.log(`${key} : ${recipe[key]}`)
+    }
+}
