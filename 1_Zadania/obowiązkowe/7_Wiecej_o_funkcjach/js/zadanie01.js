@@ -5,21 +5,21 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+// Utworzenie funkcji
 function sortArray() {
 
-    //Twoj komentarz ...
+    // Utworzenie zmiennej w zakresie funkcji 'sortArray'
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    // Wywołanie metody sort na zmiennej points utworzonej powyżej
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        // Odejmowanie używając zmiennych przekazanych do funkcji
         return a - b;
     });
 
-    //Twoj komentarz ...
+    // Zwrócenie zmiennej
     return points;
 }
 
-//Twoj komentarz ...
+// Wywołanie funkcji utworzonej powyżej
 sortArray();
