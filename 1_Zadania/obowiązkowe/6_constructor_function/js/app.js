@@ -1,3 +1,4 @@
+/* Zadanie 0 */
 const Basket = function () {
     this.products = [];
     this.sum = 0;
