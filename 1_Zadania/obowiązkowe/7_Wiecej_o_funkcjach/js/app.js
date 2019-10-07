@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+// Utworzenie funkcji 'jeden'
 function jeden() {
 
-    //Twoj komentarz ...
+    // Utworzenie zmiennej lokalnie
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    // Zadeklarowanie funkcji
     function dwa() {
 
-        //Twoj komentarz ...
+        // Wypisanie zmiennej z zakresu funkcji 'jeden' - mamy do niej dostęp
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        // utworzenie zmiennej w zakresie funkcji 'dwa'
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    // Wywołowanie funkcji po jej utworzeniu
     dwa();
 
-    //Twoj komentarz ...
+    // Tutaj nie ma dostępu do zmiennej ponieważ została ona utworzona w 'zakresie' funkcji 'dwa'
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
-jeden()
+// Wywowałnie funkcji 'jeden'   utworzonej powyżej
+jeden();
