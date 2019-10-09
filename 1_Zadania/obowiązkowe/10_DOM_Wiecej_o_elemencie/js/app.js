@@ -36,5 +36,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     chromeLink.setAttribute("href", "https://www.google.com/intl/pl_pl/chrome/");
     edgeLink.setAttribute("href", "https://www.microsoft.com/pl-pl/windows/microsoft-edge");
-    firefoxLink.setAttribute("href", "https://www.mozilla.org/pl/firefox/")
+    firefoxLink.setAttribute("href", "https://www.mozilla.org/pl/firefox/");
+
+    /* Zadanie 2 */
+    const nameEntry = document.querySelector(".ex2 #name");
+    const colorEntry = document.querySelector('.ex2 #fav_color');
+    const mealEntry = document.querySelector(".ex2 #fav_meal");
+
+    nameEntry.innerHTML = "Sebastian Machczyński";
+    colorEntry.innerHTML = "Niebieski";
+    mealEntry.innerHTML = "Pizza";
+
+
 });
