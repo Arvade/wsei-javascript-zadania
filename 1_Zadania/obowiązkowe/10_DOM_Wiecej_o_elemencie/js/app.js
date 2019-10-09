@@ -47,5 +47,15 @@ document.addEventListener("DOMContentLoaded", function () {
     colorEntry.innerHTML = "Niebieski";
     mealEntry.innerHTML = "Pizza";
 
+    /* Zadanie 3 */
+    const menuList = document.querySelector(".ex3 ul");
+    menuList.classList.add("menu");
+    document.querySelectorAll(".ex3 li").forEach(el => {
+        el.classList.add("menuElement");
+        if (el.classList.contains("error")) {
+            el.classList.remove("error");
+        }
+    });
+
 
 });
