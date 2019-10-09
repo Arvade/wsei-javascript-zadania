@@ -57,5 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    /* Zadanie 4 */
+    let nextId = 1;
+    document.querySelectorAll(".ex4 li").forEach(el => el.setAttribute("data-id", nextId++));
 
 });
