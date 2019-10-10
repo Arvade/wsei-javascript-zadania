@@ -4,7 +4,7 @@
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
 ### Zadanie 0a Eventy  (~ 7min - 12min)
-Uruchom stronę zadanieWykladowca.html.  Na stronie znajdują się dwa elementy o klasach ```parent``` i ```children```
+Uruchom stronę zadanie00.html.  Na stronie znajdują się dwa elementy o klasach ```parent``` i ```children```
 Stwórz event, który po najechaniu na element ```parent``` pokaże element ```children```. Zauważ, że element ```children``` ma ustawiony display: none w css.
 Stwórz drugi event, który po zjechaniu z elementów schowa z powrotem element ```children```.
 Pamiętaj o tym, aby nie chować wszystkich elementów naraz.
