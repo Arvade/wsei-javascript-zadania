@@ -22,3 +22,13 @@ function sortPlanets(planets) {
     result.sort((p1, p2) => p2.numberOfMoons - p1.numberOfMoons);
     return result;
 }
+
+/* Zadanie 1 - dodatkowe */
+function addTheSameNumbers(n, tab) {
+    const filtered = tab.filter(el => el === n);
+    if (filtered.length === 0) {
+        return null;
+    } else {
+        return filtered.reduce((a, b) => a + b, 0);
+    }
+}
