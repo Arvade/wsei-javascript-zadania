@@ -57,3 +57,11 @@ function getMissingElement(tab) {
     }
     return null;
 }
+
+/* Zadanie 4 - dodatkowe */
+function getLastNumbers(n, tab) {
+    if (!n || isNaN(+n)) {
+        return []
+    }
+    return tab.slice().splice(tab.length - n, n);
+}
