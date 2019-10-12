@@ -15,3 +15,10 @@ function createIdentityMatrix(rows, columns) {
     }
     return result;
 }
+
+/* Zadanie 3 */
+function sortPlanets(planets) {
+    const result = planets.slice();
+    result.sort((p1, p2) => p2.numberOfMoons - p1.numberOfMoons);
+    return result;
+}
