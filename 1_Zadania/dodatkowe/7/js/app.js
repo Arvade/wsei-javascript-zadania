@@ -32,3 +32,17 @@ function addTheSameNumbers(n, tab) {
         return filtered.reduce((a, b) => a + b, 0);
     }
 }
+
+/* Zadanie 2 - dodatkowe */
+function factors(n) {
+    if (n <= 0) {
+        return [];
+    }
+    const result = [];
+    for (let i = n; i >= 1; i--) {
+        if (n % i === 0) {
+            result.push(i)
+        }
+    }
+    return result;
+}
