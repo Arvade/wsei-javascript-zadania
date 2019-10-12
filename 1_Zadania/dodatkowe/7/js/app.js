@@ -46,3 +46,14 @@ function factors(n) {
     }
     return result;
 }
+
+/* Zadanie 3 - dodatkowe */
+function getMissingElement(tab) {
+    for (let i = 0; i < tab.length - 1; i++) {
+        const current = tab[i];
+        if (current + 1 !== tab[i + 1]) {
+            return current + 1;
+        }
+    }
+    return null;
+}
