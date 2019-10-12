@@ -26,7 +26,8 @@
 
             <div class='panel'>
                 <div class='panel-body'>
-                    <form action="http://api.coderslab.pl/showpost.php" method="post">
+                    <form action="http://api.coderslab.pl/showpost.php" method="post"
+                          onsubmit="return validateForm(this)">
                         <div class='form-group'>
                             <label>Email:</label>
                             <input type="text" class='form-control' id='email' name="email">
@@ -58,6 +59,7 @@
         </div>
     </div>
 
+    <script src="js/zadanie00.js"></script>
 </body>
 
 </html>
