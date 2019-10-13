@@ -21,3 +21,13 @@ document.addEventListener('DOMContentLoaded', function () {
 	};
 
 });
+
+class Students {
+    constructor(students) {
+        this.students = students;
+    }
+
+    countLetters() {
+        this.numberOfLetters = this.students.map(name => name.length);
+    }
+}
