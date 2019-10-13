@@ -52,4 +52,9 @@ document.addEventListener('DOMContentLoaded', function () {
     (() => {
         console.log("hello world");
     })();
+
+    /* Zadanie 6 */
+    ((str) => {
+        console.log(str);
+    })("Shrek");
 });
