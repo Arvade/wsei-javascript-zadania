@@ -8,6 +8,27 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     console.log(i, y);
 
+    /* Zadanie 3 */
+    for (var i = 0; i <= 10; i++) {
+        console.log(i);
+    }
+
+    /*
+        console.log(i);
+        Zostane wypisana wartość 10
+    */
+
+    for (let j = 0; j <= 10; j++) {
+        console.log(`j : ${j}`);
+    }
+
+    /*
+        console.log(j);
+        Zostanie rzucony błąd: "j is not defined"
+     */
+
+    /* -----------------------------------------------  */
+
     function myFn(param1) {
         let y = 4;
         let i = 20;
@@ -26,4 +47,4 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     console.log(z, y);
-})
+});
