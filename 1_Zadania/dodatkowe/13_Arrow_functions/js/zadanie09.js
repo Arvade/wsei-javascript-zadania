@@ -1,10 +1,8 @@
-const dog = {
-    type: "Mammal",
-    name: "",
-    setName: (newName) => {
-        this.name = newName;
-    }
-}
+document.addEventListener("DOMContentLoaded", () => {
 
-dog.setName("Reksio");
-console.log(dog.name);
+    [...document.querySelectorAll("div span")]
+        .forEach(span => {
+            span.addEventListener('mouseover', (e) => e.currentTarget.nextElementSibling.style.display = "block")
+        })
+
+});
