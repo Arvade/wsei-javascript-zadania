@@ -16,3 +16,7 @@ let people = [
         profession: "trener"
     }
 ];
+
+const setFunnyName = (...args) => {
+    people.push(...args);
+};
