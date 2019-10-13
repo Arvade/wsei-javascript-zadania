@@ -47,4 +47,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     console.log(z, y);
+
+    /* Zadanie 5 */
+    (() => {
+        console.log("hello world");
+    })();
 });
