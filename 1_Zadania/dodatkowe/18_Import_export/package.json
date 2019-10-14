@@ -1,0 +1,17 @@
+{
+  "name": "18_import_export",
+  "version": "1.0.0",
+  "description": "### Przygotowanie",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
