@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 	var getSpan = document.querySelectorAll('span');
-	var getUl = document.querySelectorAll('ul');
+    var getUl = document.querySelectorAll('.list ul');
 
 	for (let i = 0; i < getUl.length; i++) {
 		getUl[i].style.display = 'none';
